@@ -64,6 +64,8 @@ AI：✅ 得来速预约单已创建：8:10 上海老沪闵路得来速餐厅车
 
 没有 Token 也能体验完整逻辑——所有计算脚本均可用内置样例数据运行：
 
+![time_planner 实跑输出](docs/demo-terminal.png)
+
 ```bash
 # 时间倒推：8:40 到公司，算出预约取餐/出门时间、菜单时段和 MCP 预约入参
 echo '{"arrive_company_at":"08:40","home_to_store_minutes":18,"store_to_company_minutes":12,"now":"07:30","date":"2026-10-10"}' \
